@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(219, 219, 219);
+    
+    
+}
+.post  {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin-bottom: 3em;
+}
+
+.title{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.2em 1em 0.2em 1em; /*top right bottom left*/
+}
+.post p{
+    padding:0.2em 1em 0.2em 1em;
+}
+.feed{
+    display:flex;
+    flex-direction: column;
+    align-items: center;   
+}
